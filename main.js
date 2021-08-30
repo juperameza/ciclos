@@ -20,11 +20,11 @@ function factorial (n) {
 }
 function Euler(limite) {
     let resultado=1;
-   for (let i = 1; i < limite; i++) {
+   for (let i = 1; i <= limite; i++) {
        resultado+=(1/factorial(i))
        
    }
    console.log(resultado)
 }
-CicloS(100);
-Euler(12)
+CicloS(12);
+Euler(100)
